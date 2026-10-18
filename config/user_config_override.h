@@ -27,6 +27,8 @@
 #define USE_DISPLAY                              // Grundgeruest Display
 #define USE_UNIVERSAL_DISPLAY                    // [DisplayModel 17] liest display.ini
 #define USE_DISPLAY_MODES1TO5                    // Anzeigemodi zusaetzlich zu Mode 0
+#define LVGL_DPI 80
+//#define LVGL_FONT_DEFAULT lv_font_montserrat_12
 
 // SPI wird von FIRMWARE_TASMOTA32 bereits gesetzt; hier zur Sicherheit,
 // falls die Basis-Firmware einmal wechselt.
